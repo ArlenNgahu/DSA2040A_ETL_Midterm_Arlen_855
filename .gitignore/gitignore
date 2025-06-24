@@ -1,0 +1,46 @@
+
+# .gitignore for DSA2040A ETL Midterm Project
+
+# Ignore system and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.env
+
+# Ignore Jupyter notebook checkpoints and temporary files
+.ipynb_checkpoints/
+*.ipynb_*
+
+# Ignore data files (since they should be uploaded separately)
+data/raw_data.csv
+data/incremental_data.csv
+
+# Ignore compiled/output files
+*.db
+*.parquet
+*.sqlite
+
+# Ignore local configuration files
+*.cfg
+*.conf
+*.ini
+
+# Ignore log files
+*.log
+*.tmp
+
+# Ignore macOS system files
+._*
+
+# Ignore Windows system files
+[Dd]esktop.ini
